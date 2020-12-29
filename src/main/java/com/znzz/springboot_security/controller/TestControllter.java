@@ -8,20 +8,21 @@ import org.springframework.web.bind.annotation.*;
 public class TestControllter {
 
     @GetMapping("/hello")
-     public String hello(){
-         return "hello";
-     }
+    public String hello() {
+        return "hello";
+    }
 
 
     @GetMapping("/index")
-    public String index(){
+    public String index() {
         return "index";
     }
 
-    @GetMapping("/update")
-    @Secured({"ROLE_sale","ROLE_manager"})
-    public String update(){
-        return "hello  update";
-    }
+
+//    @GetMapping("/update")
+//    @Secured({"ROLE_sale","ROLE_manager"})
+//    public String update(){
+//        return "hello  update";
+//    }
 
 }

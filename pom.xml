@@ -35,7 +35,7 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-
+        <!-- 自动生成setter getter-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
